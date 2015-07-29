@@ -27,11 +27,18 @@
       <li>18</li>
       <li>19</li>
       <li>20</li>
+      <li>21</li>
+      <li>22</li>
     </ul>
-    <div class="controler-list" data-list"list-example">
-      <span class="right">Voltar</span> 
-      <input type="text" value=""/>
-      <span class="left">Proximo</span>
+    <div class="controler-list" data-list="list-example">
     </div>
+    <script>
+      var options = {
+        listID: 'list-example',
+        tagElement: 'li',
+        totalInPage: 5
+      };
+      var paginator  = new ListPaginator(options);
+    </script>
 </body>
 </html>
