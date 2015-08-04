@@ -1,0 +1,32 @@
+{
+  "name": "list-paginator",
+  "version": "0.0.1",
+  "description": "The simple pager using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RodyRafa/list-paginator.git"
+  },
+  "keywords": [
+    "paginator",
+    "pager",
+    "paginator",
+    "div",
+    "paginator",
+    "li",
+    "paginator",
+    "lo"
+  ],
+  "author": "Rafael Rodrigues <me@rodyrafa.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodyRafa/list-paginator/issues"
+  },
+  "homepage": "https://github.com/RodyRafa/list-paginator",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
