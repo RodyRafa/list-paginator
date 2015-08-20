@@ -28,5 +28,7 @@
   "homepage": "https://github.com/RodyRafa/list-paginator",
   "dependencies": {
     "grunt": "^0.4.5"
+  },
+  "devDependencies": {
   }
 }
