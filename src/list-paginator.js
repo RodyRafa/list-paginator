@@ -15,8 +15,8 @@
       if(controllers[i].getAttribute('data-list') === options.listID) {
         this.controller = controllers[i];
         break;
-      };
-    };
+      }
+    }
 
     var arrowRight = document.createElement('SPAN');
     var textArrorRight = document.createTextNode('Voltar');
@@ -58,8 +58,8 @@
     for(var i = (page -1) * this.totalShow ; i < len; i++) {
       if(this.arrElements[i]) {
         this.arrElements[i].style.display = "block";
-      };
-    }; 
+      }
+    } 
     var textInfo = page+' / ' +this.totalPages;
     this.infoController.innerHTML = textInfo; 
   };
@@ -67,7 +67,7 @@
   ListPaginator.prototype.hideAll = function () {
     for(var i =0; i< this.arrElements.length; i++) {
       this.arrElements[i].style.display = "none";
-    }; 
+    }
   };
 
   ListPaginator.prototype.bind = function () {
@@ -93,8 +93,8 @@
       //nada
     } else {
       this.showPage(nextPage);
-    };
-  }
+    }
+  };
 
   root.ListPaginator = ListPaginator;
   
