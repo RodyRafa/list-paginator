@@ -1,6 +1,6 @@
 (function(root) {
   'use strict';
-  
+
   var ListPaginator = function (options) {
     this.mountController(options);
     this.prepare(options);
@@ -8,7 +8,7 @@
     this.showPage(this.currentPage);
     this.bind();
   };
-
+  
   ListPaginator.prototype.mountController = function (options) {
     var controllers = document.getElementsByClassName('controler-list');
     for(var i=0; i< controllers.length; i++) {
