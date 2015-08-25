@@ -2,11 +2,11 @@
   'use strict';
 
   var ListPaginator = function (options) {
-    this.mountController(options);
+    /*this.mountController(options);
     this.prepare(options);
     this.currentPage = 1;
     this.showPage(this.currentPage);
-    this.bind();
+    this.bind();*/
   };
   
   ListPaginator.prototype.mountController = function (options) {
@@ -87,6 +87,10 @@
     }
   };
 
+  ListPaginator.prototype.sumNumber = function (x,y) {
+    return y+x;
+  };
+
   ListPaginator.prototype.nextPage = function () {
     var nextPage = this.currentPage + 1;
     if(nextPage > this.totalPages) {
@@ -98,4 +102,4 @@
 
   root.ListPaginator = ListPaginator;
   
-})(window);
+})(this);
