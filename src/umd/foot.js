@@ -1,2 +1,2 @@
-  return new Estrada();
+  return new ListPaginator();
 }));

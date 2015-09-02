@@ -2,11 +2,11 @@
   'use strict';
 
   var ListPaginator = function (options) {
-    /*this.mountController(options);
+    this.mountController(options);
     this.prepare(options);
     this.currentPage = 1;
     this.showPage(this.currentPage);
-    this.bind();*/
+    this.bind();
   };
   
   ListPaginator.prototype.mountController = function (options) {
