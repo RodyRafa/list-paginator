@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+  'use strict';
   grunt.config('jasmine', {
     pivotal: {
       src: 'src/list-paginator.js',
